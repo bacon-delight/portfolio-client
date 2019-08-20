@@ -1,21 +1,23 @@
 {
-  "name": "Portfolio",
-  "version": "1.0.0",
-  "description": "Portfolio - Dipanjan De",
-  "author": "Dipanjan De",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "heroku-postbuild": "npm run build"
-  },
-  "dependencies": {
-    "nuxt": "^2.0.0",
-    "ant-design-vue": "^1.1.10",
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^3.0.0-0"
-  },
-  "devDependencies": {}
+	"name": "Portfolio",
+	"version": "1.0.0",
+	"description": "Portfolio - Dipanjan De",
+	"author": "Dipanjan De",
+	"private": true,
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"heroku-postbuild": "npm run build"
+	},
+	"dependencies": {
+		"@nuxtjs/axios": "^5.3.6",
+		"@nuxtjs/pwa": "^3.0.0-0",
+		"ant-design-vue": "^1.1.10",
+		"node-sass": "^4.12.0",
+		"nuxt": "^2.0.0",
+		"sass-loader": "^7.2.0"
+	},
+	"devDependencies": {}
 }
