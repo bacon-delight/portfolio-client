@@ -25,7 +25,7 @@
 		overflow: -moz-scrollbars-none;
 		-ms-overflow-style: none;
 		&::-webkit-scrollbar {
-			widows: 0 !important;
+			width: 0 !important;
 		}
 	}
 

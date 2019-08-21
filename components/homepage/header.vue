@@ -15,7 +15,7 @@
 					<a target="_blank" href="https://medium.com/@dipanjan131" class="links__item"><a-icon type="medium"/></a>
 				</div>
 				<div class="header__text-container--download">
-					<a class="header__text-container--download__link" target="_blank" href="https://medium.com/@dipanjan131">Download CV</a>
+					<a class="header__text-container--download__link" target="_blank" href="">Download CV</a>
 				</div>
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 
 <script>
 	export default {
-		name: 'Header'
+		name: 'Header',
 	}
 </script>
 
@@ -35,7 +35,6 @@
 	.header {
 		width: 100vw;
 		height: 90vh;
-		//background: tomato;
 		background-image: linear-gradient(
 		    to left bottom,
 		    rgba(#000046, 0.8),
