@@ -1,13 +1,13 @@
 <template>
 	<div class="container">
 		<Navigation />
-		<Header />
+		<!-- <Header /> -->
 		<About />
 	</div>
 </template>
 
 <script>
-	import Header from '@/components/homepage/Header.vue';
+	//import Header from '@/components/homepage/Header.vue';
 	import About from '@/components/homepage/About.vue';
 	import Navigation from '@/components/commons/Navigation.vue';
 
@@ -25,7 +25,7 @@
 			}
 		},
 		components: {
-			Header,
+			//Header,
 			About,
 			Navigation
 		},
