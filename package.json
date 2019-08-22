@@ -4,7 +4,6 @@
 	"description": "Portfolio - Dipanjan De",
 	"author": "Dipanjan De",
 	"private": true,
-	"fix-absolute": "sed -i '/  .basedir.: /d' .nuxt/dist/server-bundle.json",
 	"engines": {
 		"node": "11.2.0"
 	},
