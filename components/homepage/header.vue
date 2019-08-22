@@ -5,7 +5,7 @@
 				Hi, I'm <span class="header__text-container--main__name">Dipanjan</span>!
 			</div>
 			<div class="header__text-container--sub">
-				Full Stack Developer | AI Researcher
+				AI Researcher & Full Stack Developer
 			</div>
 			<div class="header__text-container--links">
 				<div class="links">
@@ -39,7 +39,7 @@
 		    to left bottom,
 		    rgba(#000046, 0.8),
 		    rgba(#1CB5E0, 0.8)),
-			url('../../assets/img02.jpg');
+			url('../../assets/backgrounds/img02.jpg');
 		background-size: cover;
 		background-position: top;
 		position: relative;

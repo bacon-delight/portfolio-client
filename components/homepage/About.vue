@@ -13,14 +13,24 @@
 			</a-row>
 		</div>
 		<div class="about__map">
-			<iframe class="about__map--frame" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJbU60yXAWrjsR4E9-UejD3_g&key=AIzaSyAsOWZqm-SpE9sEa2tizRfg4VJt68GUFBI"></iframe>
+			<iframe class="about__map--frame" frameborder="0" :src="mapSource"></iframe>
 		</div>
 	</div>
 </template>
 
 <script>
+	import { mapsKey } from '@/static/mapsKey.secret.js';
+
 	export default {
-		name: 'About'
+		name: 'About',
+		data() {
+			return {
+				mapSource: ''
+			}
+		},
+		mounted() {
+			this.mapSource = 'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJbU60yXAWrjsR4E9-UejD3_g&key=' + mapsKey;
+		}
 	}
 </script>
 
