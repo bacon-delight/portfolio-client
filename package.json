@@ -4,6 +4,9 @@
 	"description": "Portfolio - Dipanjan De",
 	"author": "Dipanjan De",
 	"private": true,
+	"engines": {
+		"node": "11.2.0"
+	},
 	"scripts": {
 		"dev": "nuxt",
 		"build": "nuxt build",
