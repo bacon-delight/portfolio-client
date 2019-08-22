@@ -3,6 +3,7 @@
 		<Navigation />
 		<Landing />
 		<About />
+		<p>Test</p>
 	</div>
 </template>
 
