@@ -22,7 +22,25 @@
 			Experience,
 			Landing,
 			Base
-		}
+		},
+		mounted () {
+			this.$nextTick(() => {
+				this.$nuxt.$loading.start();
+				setTimeout(() => this.$nuxt.$loading.finish(), 500);
+			})
+		},
+		head() {
+			return {
+				title: 'Dipanjan De | Experiences',
+				meta: [
+					{
+						hid: 'description',
+						name: 'description',
+						content: 'Experiences'
+					}
+				]
+			}
+		},
 	}
 </script>
 

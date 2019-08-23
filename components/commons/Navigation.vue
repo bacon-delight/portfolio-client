@@ -42,10 +42,6 @@
 						title: 'Certifications',
 						link: '/certifications'
 					},
-					{
-						title: 'Publications',
-						link: '/publications'
-					},
 				]
 			}
 		},

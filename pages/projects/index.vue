@@ -25,16 +25,22 @@
 		},
 		head() {
 			return {
-				title: 'Dipanjan De | Certifications',
+				title: 'Dipanjan De | Projects',
 				meta: [
 					{
 						hid: 'description',
 						name: 'description',
-						content: 'Certifications'
+						content: 'Projects'
 					}
 				]
 			}
 		},
+		mounted () {
+			this.$nextTick(() => {
+				this.$nuxt.$loading.start();
+				setTimeout(() => this.$nuxt.$loading.finish(), 500);
+			})
+		}
 	}
 </script>
 

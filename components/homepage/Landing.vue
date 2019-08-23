@@ -15,7 +15,7 @@
 					<a target="_blank" href="https://medium.com/@dipanjan131" class="links__item"><a-icon type="medium"/></a>
 				</div>
 				<div class="header__text-container--download">
-					<a class="header__text-container--download__link" target="_blank" href="">Download CV</a>
+					<a class="header__text-container--download__link" target="_blank" href="https://drive.google.com/file/d/1ckS-uLeD37rPJMhrtZb8CiJUUrpL8OpW/view?usp=sharing">Download CV</a>
 				</div>
 			</div>
 		</div>
@@ -23,8 +23,15 @@
 </template>
 
 <script>
+
 	export default {
 		name: 'Landing',
+		mounted () {
+			this.$nextTick(() => {
+				this.$nuxt.$loading.start();
+				setTimeout(() => this.$nuxt.$loading.finish(), 500);
+			})
+		}
 	}
 </script>
 
