@@ -93,10 +93,8 @@
 	.profile-picture {
 		border-radius: 50%;
 		transition: all .7s;
-		//outline-offset: .5rem;
 		
 		&:hover, &:active {
-			//outline: .2rem solid #1CB5E0;
 			box-shadow: .5rem 1rem 2rem rgba(#000, .6);
 		}
 	}

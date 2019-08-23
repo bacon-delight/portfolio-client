@@ -32,5 +32,7 @@
 	.base-layout {
 		height: 100vh;
 		widows: 100vw;
+		margin: 0;
+		padding: 0;
 	}
 </style>

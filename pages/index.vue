@@ -3,7 +3,7 @@
 		<Navigation />
 		<Landing />
 		<About />
-		<p>Test</p>
+		<Base />
 	</div>
 </template>
 
@@ -11,6 +11,7 @@
 	import Landing from '@/components/homepage/Landing.vue';
 	import About from '@/components/homepage/About.vue';
 	import Navigation from '@/components/commons/Navigation.vue';
+	import Base from '@/components/commons/Base.vue';
 
 	export default {
 		head() {
@@ -28,7 +29,8 @@
 		components: {
 			Landing,
 			About,
-			Navigation
+			Navigation,
+			Base
 		},
 	}
 </script>

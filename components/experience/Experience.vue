@@ -2,16 +2,29 @@
 	<div class="section-experience">
 		<div class="section-experience__body">
 			<a-row type="flex" v-for="experience in experiences" :key="experience.company">
-				<a-col :xs="24" :md="6" class="section-experience__body--logo">
-					<img src="../../assets/logos/vodafone.png" :alt="experience.company" class="company-logo">
+				<a-col :xs="24" :md="4" class="section-experience__body--logo">
+					<img v-bind:src="experience.logo" :alt="experience.company" class="company-logo">
 				</a-col>
-				<a-col :xs="24" :md="18" class="section-experience__body--details">Right</a-col>
+				<a-col :xs="24" :md="20" class="section-experience__body--details">
+					<p class="section-experience__body--details__title">{{ experience.company }}</p>
+					<p class="section-experience__body--details__location">{{ experience.location }}</p>
+					<div class="section-experience__body--details__roles" v-for="designation in experience.designations">
+						<p class="section-experience__body--details__roles--title">{{ designation.title }}</p>
+						<p class="section-experience__body--details__roles--time">{{ designation.from }} to {{ designation.to }}</p>
+						<ul class="section-experience__body--details__roles--activity">
+							<li v-for="role in designation.roles" class="section-experience__body--details__roles--activity__item">{{ role }}</li>
+						</ul>
+					</div>
+				</a-col>
 			</a-row>
 		</div>
 	</div>
 </template>
 
 <script>
+	const philipsLogo= require('../../assets/logos/philips.jpg');
+	const vodafoneLogo= require('../../assets/logos/vodafone.png');
+
 	export default {
 		name: 'Experience',
 		data() {
@@ -19,8 +32,8 @@
 				experiences: [
 					{
 						company: 'Philips',
-						location: 'Bangalore',
-						logo: '../../assets/logos/philips.jpg',
+						location: 'Bangalore, Karnataka, India',
+						logo: philipsLogo,
 						designations: [
 							{
 								title: 'Software Engineer',
@@ -46,17 +59,16 @@
 					},
 					{
 						company: 'Vodafone',
-						location: 'Kolkata',
-						logo: '../../assets/logos/vodafone.png',
+						location: 'Kolkata, West Bengal, India',
+						logo: vodafoneLogo,
 						designations: [
 							{
 								title: 'Intern',
 								from: 'May 2015',
 								to: 'June 2015',
 								roles: [
-									'Collaborated with various teams to develop apps which provides interoperability among various Philips systems',
-									'Developed full-stack applications using latest and best technologies such as GraphQL, MongoDB, Vue.js and Nuxt.js',
-									'Dockerized applications for deployment in CI/CD pipelines'
+									'Web developer responsible for the design, development and optimization of several fully responsive websites using React.js',
+									'Contributed to the upgradation of E-TopUp module and automate prepaid recharges'
 								]
 							},
 						]
@@ -70,19 +82,50 @@
 <style lang="scss" scoped>
 	.section-experience {
 		width: 100vw;
-		height: 60vh;
-		padding: 3rem 2rem;
 		position: relative;
 
 		&__body {
+			padding: 3rem 1rem;
 			
 			&--logo {
 				text-align: center;
-				padding: 1rem;
+				padding: 0rem 1rem;
 			}
 
 			&--details {
 				padding: 1rem;
+
+				p {
+					margin: 0;
+					padding: 0;
+				}
+
+				&__title {
+					color: #000;
+					text-transform: uppercase;
+					font-weight: 600;
+					letter-spacing: .25rem;
+					font-size: 1.2rem;
+				}
+
+				&__roles {
+					margin-top: 1.3rem;
+
+					&--title {
+						color: #000;
+						text-transform: uppercase;
+						letter-spacing: .25rem;
+					}
+
+					&--activity {
+						margin-left: 1.5rem;
+
+						&__item {
+							margin-top: .5rem;
+							text-align: justify;
+						}
+					}
+				}
 			}
 		}
 	}
