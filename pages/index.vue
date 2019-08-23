@@ -3,13 +3,15 @@
 		<Navigation />
 		<Landing />
 		<About />
-		<Base />
+		<Skills />
+		<Base style="margin-top: -27vh;" />
 	</div>
 </template>
 
 <script>
 	import Landing from '@/components/homepage/Landing.vue';
 	import About from '@/components/homepage/About.vue';
+	import Skills from '@/components/homepage/Skills.vue';
 	import Navigation from '@/components/commons/Navigation.vue';
 	import Base from '@/components/commons/Base.vue';
 
@@ -29,6 +31,7 @@
 		components: {
 			Landing,
 			About,
+			Skills,
 			Navigation,
 			Base
 		},

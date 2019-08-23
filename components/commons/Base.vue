@@ -2,7 +2,7 @@
 	<div class="footer">
 		<a-row type="flex">
 			<a-col :xs="24" :md="10" class="footer__left">
-				<div class="footer__left--name">Dipanjan De</div>
+				<nuxt-link to="/" class="footer__left--name">Dipanjan De</nuxt-link>
 				<div class="footer__left--copyright">&copy; All Rights Reserved</div>
 				<p class="connections">
 					<a target="_blank" href="https://github.com/bacon-delight" class="connections__link"><a-icon type="github"/></a>
@@ -62,12 +62,15 @@
 		background-position: center;
 		margin: 0;
 		color: #ddd;
-		padding: 3rem 1rem;
+		padding: 15rem 1rem 3rem 1rem;
+		clip-path: polygon(0 0, 100% 25vh, 100% 100%, 0 100%);
 
 		&__left {
 			text-align: center;
 
 			&--name {
+				text-decoration: none;
+				color: #ddd;
 				letter-spacing: .4rem;
 				text-transform: uppercase;
 				border: 1px solid #fff;
