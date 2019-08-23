@@ -29,7 +29,7 @@
 	const kvLogo = require('../../assets/logos/kv.png');
 
 	export default {
-		name: 'Experience',
+		name: 'Education',
 		data() {
 			return {
 				education: [

@@ -16,13 +16,25 @@
 	import Base from '@/components/commons/Base.vue';
 
 	export default {
-		name: 'Experiences',
+		name: 'Education',
 		components: {
 			Navigation,
 			Education,
 			Landing,
 			Base
-		}
+		},
+		head() {
+			return {
+				title: 'Dipanjan De | Alma Mater',
+				meta: [
+					{
+						hid: 'description',
+						name: 'description',
+						content: 'Alma Mater / Education'
+					}
+				]
+			}
+		},
 	}
 </script>
 
