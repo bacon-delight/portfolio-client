@@ -50,7 +50,7 @@
 						]
 					},
 					{
-						degree: 'Masters of Technology',
+						degree: 'Batchelors of Technology',
 						course: 'Computer Science & Engineering',
 						university: 'SRM Institute of Science & Technology',
 						location: 'Kattankulathur, Chennai, Tamil Nadu, India',

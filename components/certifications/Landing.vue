@@ -95,7 +95,7 @@
 				text-align: justify;
 				font-size: .9rem;
 				line-height: 1.8rem;
-				width: 100vw;
+				max-width: 100vw;
 				padding: 0 1rem;
 			}
 		}

@@ -116,12 +116,13 @@
 		&__link {
 			color: #fff;
 			text-decoration: none;
+			transition: all .6s;
 
 			&:not(:last-child) {
 				margin-right: 2rem;
 			}
 
-			:hover {
+			&:hover {
 				color: tomato;
 			}
 		}
