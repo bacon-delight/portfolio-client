@@ -84,7 +84,7 @@
 				text-align: center;
 				text-transform: uppercase;
 				letter-spacing: .8rem;
-				font-size: 2rem;
+				font-size: 1.4rem;
 			}
 
 			&--sub {
@@ -94,6 +94,8 @@
 				text-align: justify;
 				font-size: .9rem;
 				line-height: 1.8rem;
+				max-width: 100vw;
+				padding: 1rem;
 			}
 		}
 	}

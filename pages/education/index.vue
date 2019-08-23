@@ -3,7 +3,7 @@
 		<Navigation />
 		<Landing />
 		<div class="section-details">
-			<Education />
+			<Educations />
 		</div>
 		<Base />
 	</div>
@@ -11,7 +11,7 @@
 
 <script>
 	import Navigation from '@/components/commons/Navigation.vue';
-	import Education from '@/components/education/Education.vue';
+	import Educations from '@/components/education/Education.vue';
 	import Landing from '@/components/education/Landing.vue';
 	import Base from '@/components/commons/Base.vue';
 
@@ -19,7 +19,7 @@
 		name: 'Education',
 		components: {
 			Navigation,
-			Education,
+			Educations,
 			Landing,
 			Base
 		},
