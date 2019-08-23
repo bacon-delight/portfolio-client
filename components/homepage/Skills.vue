@@ -74,7 +74,7 @@
 			text-transform: uppercase;
 			font-weight: 900;
 			letter-spacing: .5rem;
-			background-image: linear-gradient(to right, #C33764, #1D2671);
+			background-image: linear-gradient(to right, #2BC0E4, #EAECC6);
 			-webkit-background-clip: text;
 			color: transparent;
 			padding: 2rem;

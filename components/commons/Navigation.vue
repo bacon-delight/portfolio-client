@@ -35,10 +35,6 @@
 						link: '/education'
 					},
 					{
-						title: 'Skills',
-						link: '/skills'
-					},
-					{
 						title: 'Projects',
 						link: '/projects'
 					},
