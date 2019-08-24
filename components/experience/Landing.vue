@@ -2,8 +2,8 @@
 	<div class="section-header">
 		<div class="background-video">
 			<video class="background-video__content" autoplay muted loop>
-			    <source src="../../assets/videos/nebula.mp4" type="video/mp4">
-			    <source src="../../assets/videos/nebula.webm" type="video/webm">
+			    <source src="../../assets/videos/sea.mp4" type="video/mp4">
+			    <source src="../../assets/videos/sea.webm" type="video/webm">
 			    Your browser doesn't support video!
 			</video>
 		</div>

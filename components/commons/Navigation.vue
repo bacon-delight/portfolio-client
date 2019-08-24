@@ -138,7 +138,7 @@
 
 		//FUNCTIONALITY
 		&__checkbox:checked ~ &__background {
-		    transform: scale(120);
+		    transform: scale(180);
 		}
 
 		&__checkbox:checked ~ &__nav {

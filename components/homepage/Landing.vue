@@ -41,7 +41,7 @@
 
 	.header {
 		width: 100vw;
-		height: 90vh;
+		height: 100vh;
 		background-image: linear-gradient(
 		    to left bottom,
 		    rgba(#000046, 0.8),
