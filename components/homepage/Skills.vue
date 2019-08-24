@@ -39,25 +39,33 @@
 				skillsLeft: [
 					{
 						context: 'Machine Learning',
-						specializations: ['TensorFlow', 'PyTorch', 'Keras', 'CNNs', 'Pooling / Feature Extraction', 'Data Analysis']
+						specializations: ['TensorFlow / PyTorch', 'Convolutional Neural Networks', 'Pooling / Feature Extraction', 'Data Analysis & Modelling', 'Probability & Statistics', 'Linear Algebra', 'Libraries for Data Processing & Visualization']
 					},
 					{
 						context: 'UI / UX',
-						specializations: ['Vue', 'Nuxt', 'Quasar', 'Ant Design', 'Vuetify', 'React', 'Sass / SCSS']
+						specializations: ['Vue / Nuxt / Quasar', 'Ant Design / Vuetify', 'Sass / SCSS', 'Responsive Design', 'UX Research']
+					},
+					{
+						context: 'Databases',
+						specializations: ['MongoDB / CouchDB', 'Cassandra / Redis', 'Neo4j', 'Cockroach', 'MySQL / PostgreSQL / SQLite']
 					},
 				],
 				skillsRight: [
 					{
 						context: 'Server Side',
-						specializations: ['Flask / Django', 'Node', 'GraphQL', 'Laravel']
-					},
-					{
-						context: 'Databases',
-						specializations: ['MongoDB / CouchDB', 'Cassandra / Redis', 'Neo4j', 'Cockroach', 'MySQL / PostgreSQL']
+						specializations: ['Flask / Django', 'Node / Express', 'GraphQL / Apollo']
 					},
 					{
 						context: 'Internet of Things',
-						specializations: ['Arduino / Raspberry Pi', 'Embedded C', 'Lua']
+						specializations: ['Arduino / Raspberry Pi', 'Embedded C / Lua / Python', 'Swarm Architecture']
+					},
+					{
+						context: 'Languages',
+						specializations: ['Python', 'JavaScript', 'PHP', 'C / C++', 'MATLAB / Octave', 'Embedded C / Lua']
+					},
+					{
+						context: 'Others',
+						specializations: ['Nature Inspired Design & Architecture Research', 'Fuzzy Logic', 'Swarm Architecture']
 					},
 				],
 			}
