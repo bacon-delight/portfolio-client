@@ -65,7 +65,7 @@
 					},
 					{
 						context: 'Others',
-						specializations: ['Nature Inspired Design & Architecture Research', 'Fuzzy Logic', 'Swarm Architecture']
+						specializations: ['Nature Inspired Design & Architecture Research', 'Fuzzy Logic', 'Version Control', 'CI / CD Tools']
 					},
 				],
 			}
