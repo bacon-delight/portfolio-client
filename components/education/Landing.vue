@@ -13,7 +13,7 @@
 		<div class="section-header__title">
 			<div class="section-header__title--main">Alma Mater</div>
 			<div class="section-header__title--sub">
-				<p>Education is the passport to the future, the most powerful weapon imaginable to manking. It replaces an empty mind with an open one.</p>
+				<p>Education is the passport to the future, the most powerful weapon imaginable to mankind. It replaces an empty mind with an open one.</p>
 			</div>
 		</div>
 	</div>

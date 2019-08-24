@@ -27,6 +27,10 @@
 				currentRoute: '',
 				navList: [
 					{
+						title: 'Profile',
+						link: '/'
+					},
+					{
 						title: 'Experiences',
 						link: '/experience'
 					},

@@ -1,5 +1,12 @@
 <template>
 	<div class="skills">
+		<div class="background-video">
+			<video class="background-video__content" autoplay muted loop>
+			    <source src="../../assets/videos/ink.mp4" type="video/mp4">
+			    <source src="../../assets/videos/ink.webm" type="video/webm">
+			    Your browser doesn't support video!
+			</video>
+		</div>
 		<div class="skills__header">Skills</div>
 		<div class="skills__details">
 			<a-row type="flex">
@@ -59,15 +66,30 @@
 </script>
 
 <style lang="scss" scoped>
+	.background-video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    height: 100%;
+	    width: 100%;
+	    z-index: -1;
+	    opacity: .8;
+	    overflow: hidden;
+
+	    &__content {
+	        height: 100%;
+	        width: 100%;
+	        object-fit: cover;
+	    }
+	}
+
 	.skills {
+		position: relative;
 		padding: 3rem 0rem 30vh 0rem;
 		background-image: linear-gradient(
 		    to right bottom,
-		    rgba(#3A6073, 0.8),
-		    rgba(#16222A, 0.8)),
-			url('../../assets/backgrounds/img03.jpg');
-		background-size: cover;
-		background-position: top;
+		    rgba(#c31432, 0.2),
+		    rgba(#240b36, 0.2));
 
 		&__header {
 			font-size: 2.5rem;
