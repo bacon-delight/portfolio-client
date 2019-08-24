@@ -1,6 +1,6 @@
 export const state = () => ({
-	aboutMe: 'I\'m an open source developer with experience in latest and meaningful technologies which helps build apps with better performance, scalability and user experience. I work on full-stack projects and I integrate neural networks and deep learning algorithms to make them smarter, faster and more reliable. I also have extensive hands-on experience in RESTful web services, as well as in several NoSQL and NewSQL databases, and polyglot powered Single Page Applications.',
-	currentLocation: 'Bangalore, Karnataka, India, Planet Earth'
+	aboutMe: 'Hi, glad you\'re here! I\'m a researcher in Artificial Intelligence and Machine Learning, with extensive hands on experience as a full-stack developer. I\'ve been working on several projects, incorporating deep learning and refined neural networks to solve critical problems, improve performance and develop smarter and more reliable applications. I also architect and develop scalable applications with intuitive and responsive UI/UX designs, microservices and polyglot powered architectures. I embrace and incorporate newer and meaningful tools and technologies in my application architecture, such as GraphQL, PWA\'s and combination of RDBMS, NoSQL and NewSQL databases.',
+	currentLocation: 'Bangalore, Karnataka, India'
 })
 
 export const getters = {

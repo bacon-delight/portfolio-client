@@ -5,7 +5,7 @@
 				Hi, I'm <span class="header__text-container--main__name">Dipanjan</span>!
 			</div>
 			<div class="header__text-container--sub">
-				AI Researcher & Full Stack Developer
+				AI & ML Researcher | Full Stack Developer
 			</div>
 			<div class="header__text-container--links">
 				<div class="links">
