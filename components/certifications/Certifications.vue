@@ -30,12 +30,12 @@
 			return {
 				certifications: [
 					{
-						title: 'Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning',
+						title: 'TensorFlow in Practice Specialization',
 						authority: 'deeplearning.ai | Coursera',
-						certitied: 'August 2019',
-						credential: 'FJDTE4HDGLPA',
+						certitied: 'September 2019',
+						credential: 'KDZP67B2WNPS',
 						logo: dlLogo,
-						url: 'https://www.coursera.org/account/accomplishments/verify/FJDTE4HDGLPA'
+						url: 'https://www.coursera.org/account/accomplishments/specialization/KDZP67B2WNPS'
 					},
 					{
 						title: 'Aerial Robotics',

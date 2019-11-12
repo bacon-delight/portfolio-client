@@ -91,4 +91,4 @@ sw.*
 *.swp
 
 # Secret Constants
-*.secret.js
+#*.secret.js

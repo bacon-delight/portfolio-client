@@ -40,9 +40,11 @@
 								from: 'June 2019',
 								to: 'Present',
 								roles: [
-									'Collaborated with various teams to develop apps which provides interoperability among various Philips systems',
-									'Developed full-stack applications using latest and best technologies such as GraphQL, MongoDB, Vue.js and Nuxt.js',
-									'Dockerized applications for deployment in CI/CD pipelines'
+									'Undertaken full-stack projects and incorported latest and best technologies to boost performance, scalability and reliability, and deliver responsive user experience across devices',
+									'Helped achieve interoperability among multiple independent teams across Philips ecosystem',
+									'Demonstrated experience in designing and delivering quality solutions and prototypes in limited timespan and short deadlines, which helped Philips win contracts with external organizations',
+									'Hands on experience in Containerization, RESTful Web Services, GraphQL and NoSQL databases along with RDBMS',
+									'Recognition for leadership - Take Ownership to Deliver Fast'
 								]
 							},
 							{
